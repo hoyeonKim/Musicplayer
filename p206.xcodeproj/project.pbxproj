@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A9B47518879BF50017771F /* music3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00A9B47218879BF50017771F /* music3.mp3 */; };
+		00A9B47618879BF50017771F /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00A9B47318879BF50017771F /* music1.mp3 */; };
+		00A9B47718879BF50017771F /* music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00A9B47418879BF50017771F /* music2.mp3 */; };
 		00AAD1D818878C9F00F7513A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AAD1D718878C9F00F7513A /* Foundation.framework */; };
 		00AAD1DA18878C9F00F7513A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AAD1D918878C9F00F7513A /* CoreGraphics.framework */; };
 		00AAD1DC18878C9F00F7513A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AAD1DB18878C9F00F7513A /* UIKit.framework */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A9B47218879BF50017771F /* music3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music3.mp3; sourceTree = "<group>"; };
+		00A9B47318879BF50017771F /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
+		00A9B47418879BF50017771F /* music2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music2.mp3; sourceTree = "<group>"; };
 		00AAD1D418878C9F00F7513A /* p206.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = p206.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00AAD1D718878C9F00F7513A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00AAD1D918878C9F00F7513A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +118,9 @@
 		00AAD1DD18878C9F00F7513A /* p206 */ = {
 			isa = PBXGroup;
 			children = (
+				00A9B47218879BF50017771F /* music3.mp3 */,
+				00A9B47318879BF50017771F /* music1.mp3 */,
+				00A9B47418879BF50017771F /* music2.mp3 */,
 				00AAD1E618878C9F00F7513A /* AppDelegate.h */,
 				00AAD1E718878C9F00F7513A /* AppDelegate.m */,
 				00AAD1E918878C9F00F7513A /* Main.storyboard */,
@@ -228,8 +237,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A9B47518879BF50017771F /* music3.mp3 in Resources */,
 				00AAD1F018878C9F00F7513A /* Images.xcassets in Resources */,
 				00AAD1E218878C9F00F7513A /* InfoPlist.strings in Resources */,
+				00A9B47718879BF50017771F /* music2.mp3 in Resources */,
+				00A9B47618879BF50017771F /* music1.mp3 in Resources */,
 				00AAD1EB18878C9F00F7513A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +472,7 @@
 				00AAD20818878CA000F7513A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00AAD20918878CA000F7513A /* Build configuration list for PBXNativeTarget "p206Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +481,7 @@
 				00AAD20B18878CA000F7513A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
